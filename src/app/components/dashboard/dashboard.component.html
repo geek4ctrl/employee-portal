@@ -16,11 +16,18 @@
         </div>
 
         <div>
-            Filter
+            <mat-form-field appearance="fill">
+            <mat-label>Filter by</mat-label>
+            <mat-select>
+                <mat-option *ngFor="let attribute of attributes" [value]="attribute.value">
+                {{attribute.viewValue}}
+                </mat-option>
+            </mat-select>
+            </mat-form-field>
         </div>
 
         <div>
-            Button
+            <button mat-raised-button>New Employee</button>
         </div>
     </div>
 
