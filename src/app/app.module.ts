@@ -6,6 +6,10 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatIconModule } from '@angular/material/icon';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +18,10 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatInputModule,
+    MatFormFieldModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
