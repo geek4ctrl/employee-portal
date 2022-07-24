@@ -1,0 +1,16 @@
+.dashboard-main {
+    padding: 2rem 5rem 0 5rem;
+}
+
+.dashboard-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    align-content: flex-start;
+}
+
+.dashboard-list {
+    display: flex;
+    flex-direction: column;
+}
